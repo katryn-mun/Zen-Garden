@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-image:url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 920px;
+}
+body{
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+#heading{
+    font-size: 70px;
+    position: absolute;
+    top: 300px;
+    right: 400px;
+}
+#subheading{
+    position: absolute;
+    top: 380px;
+    right: 400px;
+}
+#firstParagraph-body{
+    /* background-color: rgb(206, 206, 169); */
+    text-align: center;
+    color: rgb(114, 108, 108);
+    margin: 40px;
+}
+.card-body{
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(236, 180, 140);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    box-shadow: 4px 4px;
+}
+.card-header-body{
+    display: grid;
+    gap: 20px;
+}
+.paragraph-heading{
+    text-align: center;
+}
+.sideByside{
+    display: flex;
+    justify-items: center;
+    gap: 1px;
+    flex: 1;
+}
+
+/* styling for pictures */
+#enlightenment-pic{
+  max-width: 400px; 
+  height: auto;
+  border-radius:20px;
+  box-shadow: 3px 3px 3px black;
+}
+#enlightenment-color{
+    background-color: rgb(206, 206, 169);
+}
+#whatIsThisAbout-pic{
+    max-width: 600px; 
+    height: auto;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px black;
+    
+}
+#participation-pic{
+    max-width: 400px; 
+    height: auto;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px black;
+}
+#benefits-pic{
+    max-width: 400px; 
+    height: auto;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px black;
+}
+#requirements{
+    max-width: 400px; 
+    height: auto;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+/* link to designs */
+.design-nav{
+    background-color: aqua;
+}
+.design{
+    background-color: bisque;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
