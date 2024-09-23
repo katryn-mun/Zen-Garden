@@ -6,39 +6,48 @@ header{
     background-image:url(./images/background.jpg);
     background-size: cover;
     background-position: center;
-    height: 920px;
+    height: 90vh;
+    text-align: right;
+    display: flexbox;
+    grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+
 }
+.heading-and-subheading{
+    padding-top: 30vh;
+
+}
+/* main */
 body{
     font-size: 21px;
     color: rgb(255, 255, 255);
 }
 #heading{
+
     font-size: 70px;
-    position: absolute;
-    top: 300px;
-    right: 400px;
+    position: relative;
+    top: 50%;
+    right: 10vh;
 }
 #subheading{
-    position: absolute;
-    top: 380px;
-    right: 400px;
+    position: relative;
+    top: 50%;
+    right: 10vh;
 }
+
 #firstParagraph-body{
-    /* background-color: rgb(206, 206, 169); */
     text-align: center;
     color: rgb(114, 108, 108);
     margin: 40px;
 }
-.card-body{
-    margin: 30px;
+.card{
+    margin: 20px;
     padding: 30px;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(236, 180, 140);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
     justify-items: center;
-    box-shadow: 4px 4px;
 }
 .card-header-body{
     display: grid;
@@ -47,7 +56,7 @@ body{
 .paragraph-heading{
     text-align: center;
 }
-.sideByside{
+.sideBySide{
     display: flex;
     justify-items: center;
     gap: 1px;
@@ -55,50 +64,57 @@ body{
 }
 
 /* styling for pictures */
-#enlightenment-pic{
-  max-width: 400px; 
-  height: auto;
-  border-radius:20px;
-  box-shadow: 3px 3px 3px black;
-}
+.card-image{
+    max-width: auto; 
+    height: 300px;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px black;
+    }
 #enlightenment-color{
     background-color: rgb(206, 206, 169);
 }
-#whatIsThisAbout-pic{
-    max-width: 600px; 
-    height: auto;
-    border-radius:20px;
-    box-shadow: 3px 3px 3px black;
-    
-}
-#participation-pic{
-    max-width: 400px; 
-    height: auto;
-    border-radius:20px;
-    box-shadow: 3px 3px 3px black;
-}
-#benefits-pic{
-    max-width: 400px; 
-    height: auto;
-    border-radius:20px;
-    box-shadow: 3px 3px 3px black;
-}
-#requirements{
-    max-width: 400px; 
-    height: auto;
-    border-radius:20px;
-    box-shadow: 3px 3px 3px black;
+#requirement-color{
+background-color: rgb(241, 234, 221);
+color:rgb(114, 108, 108);
 }
 
 /* link to designs */
+#Select{
+color:rgb(92, 89, 89);
+padding: 10px;
+background-color: rgb(241, 234, 221);
+display: flex;
+justify-content: center;
+border-radius: 20px 20px 20px 20px;
+}
 .design-nav{
-    background-color: aqua;
+    margin: 20px;
+    background-color: rgb(241, 234, 221);
+    display: grid;
+    border-radius: 20px 20px 20px 20px;
+    list-style: none;
+    color:rgb(177, 175, 175);
 }
 .design{
-    background-color: bisque;
+ 
+    margin: 0px;
+    font-size: 30px;
+    background-color: rgb(241, 234, 221);
+    margin:20px;
+    display: flex;
+    justify-content: left;
 }
 ul li a{
     list-style: none;
     text-decoration: none;
-    color: black;
+    color:rgb(114, 108, 108);
+}
+
+/*footer*/
+footer{
+    padding: 10px;
+    background-color:rgb(206, 206, 169);
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
 }
